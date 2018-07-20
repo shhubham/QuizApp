@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<RelativeLayout android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="Click to submit"
+        android:id="@+id/btn"/>
+
+    <TextView
+        android:layout_width="353dp"
+        android:layout_height="98dp"
+        android:textSize="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="118dp"
+        android:text="Your Score Page"
+        android:id="@+id/sc"/>
+
+</RelativeLayout>
